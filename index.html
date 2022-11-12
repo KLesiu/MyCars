@@ -15,22 +15,27 @@
   </head>
   <body>
     <header>
-      <h1>Od Gokarta do Mustanga</h1>
-      <h2>Moja historia samochodów</h2>
+      <h1>From Go-kart to Mustang</h1>
+      <h2>My cars history</h2>
     </header>
     <main>
+      <div class="menu__text">Menu</div>
+      <div class="info__text">Information</div>
       <nav>
-        <h3>Menu</h3>
         <div class="photos__container">
           <div class="photoPlace">
-            <img src="img/gokart1.jpg" alt="Zdjęcie Gokartu" />
+            <img
+              class="gokart__menu"
+              src="img/gokart1.jpg"
+              alt="Photo of go-kart"
+            />
           </div>
           <span class="arrow">=></span>
           <div class="photoPlace">
-            <img src="img/fiesta.jpg" alt="Zdjęcie Forda Fiesty" />
+            <img src="img/fiesta.jpg" alt="Photo of ford fiesta mk6" />
           </div>
           <div class="photoPlace">
-            <img src="img/mondeo.jpg" alt="Zdjęcie Forda Mondeo" />
+            <img src="img/mondeo.jpg" alt="Photo of ford mondeo mk5" />
             <!-- <a href="https://commons.wikimedia.org/wiki/File:Ford_Mondeo_Wagon_(14425264517).jpg">Rutger van der Maar from Leiden, The Netherlands</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons -->
           </div>
           <span class="arrow">=></span>
@@ -43,14 +48,31 @@
           </div>
           <span class="arrow">=></span>
           <div class="photoPlace">
-            <img src="img/mustang.jpg" alt="Zdjęcie Forda Mustanga" />
+            <img src="img/mustang.jpg" alt="Photo of ford mustang gt 5.0" />
           </div>
         </div>
       </nav>
 
-      <section>
-        <div>Hejo</div>
+      <section class="start">
+        <h3 class="model">If you want to see informations about my cars:</h3>
+        <h4>
+          Check the cards! You have to use your mouse or your finger if you are
+          at mobile.
+        </h4>
+        <span class="section__number">1</span>
+        <span class="section__number">2</span>
+        <span class="section__number">3</span>
+        <div class="section__info">Click anyone from menu.</div>
+        <div class="section__info">Info will apear without refresh a page!</div>
+        <div class="section__info">This is the magic of Java Script.</div>
+        <div></div>
+      </section>
+      <section class="gokart hidden">
+        <h3 class="model">Gokart</h3>
+        Gokart to idealny pojazd dzieciństwa.
+        <img src="img/gokart.jpg" />
       </section>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>
