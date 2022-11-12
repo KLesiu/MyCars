@@ -138,12 +138,13 @@ section h4 {
   text-align: center;
 }
 .section__info {
-  font-size: 0px;
+  font-size: 20px;
+  opacity: 0.5;
   width: 30%;
   height: 50%;
   background: linear-gradient(var(--emptyPlaceColor-));
   border-radius: 20%;
-  transition: font-size 0.2s, transform 0.5s;
+  transition: opacity 0.2, transform 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,9 +152,17 @@ section h4 {
   text-align: center;
   font-weight: 400;
 }
+.section__info span {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.section__info span:hover {
+  opacity: 1;
+}
 .section__info:hover {
   font-size: 20px;
   transform: scale(1.1);
+  opacity: 1;
 }
 .section__number {
   width: 30%;

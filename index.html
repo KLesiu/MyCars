@@ -32,10 +32,18 @@
           </div>
           <span class="arrow">=></span>
           <div class="photoPlace">
-            <img src="img/fiesta.jpg" alt="Photo of ford fiesta mk6" />
+            <img
+              class="fiesta__menu"
+              src="img/fiesta.jpg"
+              alt="Photo of ford fiesta mk6"
+            />
           </div>
           <div class="photoPlace">
-            <img src="img/mondeo.jpg" alt="Photo of ford mondeo mk5" />
+            <img
+              class="mondeo__menu"
+              src="img/mondeo.jpg"
+              alt="Photo of ford mondeo mk5"
+            />
             <!-- <a href="https://commons.wikimedia.org/wiki/File:Ford_Mondeo_Wagon_(14425264517).jpg">Rutger van der Maar from Leiden, The Netherlands</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons -->
           </div>
           <span class="arrow">=></span>
@@ -48,7 +56,11 @@
           </div>
           <span class="arrow">=></span>
           <div class="photoPlace">
-            <img src="img/mustang.jpg" alt="Photo of ford mustang gt 5.0" />
+            <img
+              class="mustang__menu"
+              src="img/mustang.jpg"
+              alt="Photo of ford mustang gt 5.0"
+            />
           </div>
         </div>
       </nav>
@@ -62,15 +74,35 @@
         <span class="section__number">1</span>
         <span class="section__number">2</span>
         <span class="section__number">3</span>
-        <div class="section__info">Click anyone from menu.</div>
-        <div class="section__info">Info will apear without refresh a page!</div>
-        <div class="section__info">This is the magic of Java Script.</div>
+        <div class="section__info"><span>Click anyone from menu.</span></div>
+        <div class="section__info">
+          <span>Info will apear without refresh a page!</span>
+        </div>
+        <div class="section__info">
+          <span>This is the magic of Java Script.</span>
+        </div>
         <div></div>
       </section>
       <section class="gokart hidden">
         <h3 class="model">Gokart</h3>
         Gokart to idealny pojazd dzieciństwa.
         <img src="img/gokart.jpg" />
+      </section>
+      <section class="fiesta hidden">
+        <h3 class="model">Ford Fiesta</h3>
+        Fiesta
+      </section>
+      <section class="mondeo hidden">
+        <h3 class="model">Ford Mondeo</h3>
+        Mondeo
+      </section>
+      <section class="empty hidden">
+        <h3 class="model">Empty</h3>
+        Pusto
+      </section>
+      <section class="mustang hidden">
+        <h3 class="model">Mustang</h3>
+        Mustang
       </section>
     </main>
     <script src="app.js"></script>

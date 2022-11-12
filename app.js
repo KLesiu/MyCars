@@ -1,14 +1,32 @@
 const gokart = document.querySelector(".gokart__menu");
-let switchSide;
+const fiesta = document.querySelector(".fiesta__menu");
+const mondeo = document.querySelector(".mondeo__menu");
+const empty = document.querySelectorAll(".emptyPlace");
+const mustang = document.querySelector(".mustang__menu");
 
-const slide = () => {
-  const slide = document.querySelector(".gokart");
-  const prevSlide = document.querySelector(".start");
-  prevSlide.classList.add("hidden");
-  slide.classList.remove("hidden");
-};
+let switchSlide = [gokart, fiesta, mondeo, mustang];
 
 const change = () => {
-  gokart.addEventListener("click", slide);
+  const slide = document.querySelector(".gokart");
+  slide.classList.toggle("hidden");
+  const startSlide = document.querySelector(".start");
+  startSlide.classList.add("hidden");
+  const slideFiesta = document.querySelector(".fiesta");
+  slideFiesta.classList.add("hidden");
 };
-change();
+const show = () => {
+  switchSlide[0].addEventListener("click", change);
+};
+const changeOne = () => {
+  const slide = document.querySelector(".fiesta");
+  slide.classList.toggle("hidden");
+  const startSlide = document.querySelector(".start");
+  startSlide.classList.add("hidden");
+  const slideGokart = document.querySelector(".gokart");
+  slideGokart.classList.add("hidden");
+};
+const showOne = () => {
+  switchSlide[1].addEventListener("click", changeOne);
+};
+show();
+showOne();
