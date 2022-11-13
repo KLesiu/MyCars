@@ -4,6 +4,7 @@ const mondeo = document.querySelector(".mondeo__menu");
 const empty = document.querySelector(".emptyPlace1");
 const emptyTwo = document.querySelector(".emptyPlace2");
 const mustang = document.querySelector(".mustang__menu");
+let test;
 
 let switchSlide = [gokart, fiesta, mondeo, mustang];
 
