@@ -18,6 +18,22 @@ const change = () => {
   slideMondeo.classList.add("hidden");
   const slideMustang = document.querySelector(".mustang");
   slideMustang.classList.add("hidden");
+  if (slide.classList.contains("hidden")) {
+    startSlide.classList.remove("hidden");
+  }
+};
+const showVideoFiesta = () => {
+  const imageFiesta = document.querySelector(".fiesta__image");
+  imageFiesta.classList.toggle("hidden");
+  let buttonText = document.querySelector(".fiesta__button");
+  if (imageFiesta.classList.contains("hidden")) {
+    buttonText.innerText = "Look at the photo";
+  } else {
+    buttonText.innerText = "Look at the video";
+  }
+
+  const videoFiesta = document.querySelector(".fiesta__video");
+  videoFiesta.classList.toggle("hidden");
 };
 
 const changeOne = () => {
@@ -31,6 +47,11 @@ const changeOne = () => {
   slideMondeo.classList.add("hidden");
   const slideMustang = document.querySelector(".mustang");
   slideMustang.classList.add("hidden");
+  const button = document.querySelector(".fiesta__button");
+  button.addEventListener("click", showVideoFiesta);
+  if (slide.classList.contains("hidden")) {
+    startSlide.classList.remove("hidden");
+  }
 };
 
 const changeTwo = () => {
@@ -44,6 +65,9 @@ const changeTwo = () => {
   slideFiesta.classList.add("hidden");
   const slideMustang = document.querySelector(".mustang");
   slideMustang.classList.add("hidden");
+  if (slide.classList.contains("hidden")) {
+    startSlide.classList.remove("hidden");
+  }
 };
 
 const changeThree = () => {
@@ -57,6 +81,9 @@ const changeThree = () => {
   slideFiesta.classList.add("hidden");
   const slideMondeo = document.querySelector(".mondeo");
   slideMondeo.classList.add("hidden");
+  if (slide.classList.contains("hidden")) {
+    startSlide.classList.remove("hidden");
+  }
 };
 
 const showText = () => {
