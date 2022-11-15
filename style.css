@@ -255,7 +255,7 @@ section h4 {
   cursor: pointer;
 }
 .photoPlace:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 
   opacity: 1;
 }
@@ -329,5 +329,12 @@ section h4 {
   }
   .model {
     font-size: 25px;
+  }
+  .photoPlace:hover {
+    transform: scale(1);
+  }
+  .arrow__right {
+    bottom: 20vh;
+    top: auto;
   }
 }

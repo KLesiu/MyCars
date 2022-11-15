@@ -117,6 +117,33 @@ const sliderFiesta = () => {
   } else if (imageFiesta.classList.contains("fiesta__image2")) {
     imageFiesta.setAttribute("src", "img/fiesta3.jpg");
     imageFiesta.setAttribute("class", "fiesta__image3");
+  } else if (imageFiesta.classList.contains("fiesta__image3")) {
+    imageFiesta.setAttribute("src", "img/fiesta4.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image4");
+  } else if (imageFiesta.classList.contains("fiesta__image4")) {
+    imageFiesta.setAttribute("src", "img/fiesta5.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image5");
+  } else if (imageFiesta.classList.contains("fiesta__image5")) {
+    imageFiesta.setAttribute("src", "img/fiesta7.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image7");
+  } else if (imageFiesta.classList.contains("fiesta__image7")) {
+    imageFiesta.setAttribute("src", "img/fiesta8.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image8");
+  } else if (imageFiesta.classList.contains("fiesta__image8")) {
+    imageFiesta.setAttribute("src", "img/fiesta9.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image9");
+  } else if (imageFiesta.classList.contains("fiesta__image9")) {
+    imageFiesta.setAttribute("src", "img/fiesta10.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image10");
+  } else if (imageFiesta.classList.contains("fiesta__image10")) {
+    imageFiesta.setAttribute("src", "img/fiesta11.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image11");
+  } else if (imageFiesta.classList.contains("fiesta__image11")) {
+    imageFiesta.setAttribute("src", "img/fiesta12.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image12");
+  } else if (imageFiesta.classList.contains("fiesta__image12")) {
+    imageFiesta.setAttribute("src", "img/fiesta13.jpg");
+    imageFiesta.setAttribute("class", "fiesta__image13");
   } else {
     imageFiesta.setAttribute("src", "img/fiesta1.jpg");
     imageFiesta.setAttribute("class", "fiesta__image1");
