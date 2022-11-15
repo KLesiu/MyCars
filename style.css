@@ -337,4 +337,7 @@ section h4 {
     bottom: 20vh;
     top: auto;
   }
+  .fiesta__video {
+    width: 90%;
+  }
 }
