@@ -229,7 +229,7 @@ section h4 {
   margin-bottom: 10px;
   border-radius: 5px;
   width: 40%;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 16px;
   height: 100%;
 }
@@ -267,8 +267,10 @@ section h4 {
   right: 0;
   font-weight: 700;
   cursor: pointer;
-
   background-color: rgba(128, 128, 128, 0.329);
+}
+.fiestaParagraph {
+  text-align: center;
 }
 
 /* MOBILE */
