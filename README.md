@@ -1,7 +1,6 @@
 # MyCars
 ## You can see it here: https://klesiu.github.io/MyCars/
 This is the page about my cars and cars which i would like to have.
-## Work-time: 5-6 days
 ## New skills:
 - Learn how to use css variables (:root).
 - It was my first project with JS so, In fact a learned a lot of basic Java Script options and possibilities.
